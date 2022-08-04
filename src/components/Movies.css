@@ -1,0 +1,27 @@
+.movies{
+    background-color: rgb(25, 26, 39);
+    padding: 24px 48px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    align-self: center;
+}
+
+.input-search{
+    align-self: center;
+    margin-right: 10px;
+    height: 42px;
+    width: 240px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.movies-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

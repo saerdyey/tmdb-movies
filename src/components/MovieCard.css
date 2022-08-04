@@ -1,0 +1,68 @@
+.movie-card{
+    display: flex;
+    width: 240px;
+    flex-direction: column;
+    margin: 24px;
+    position: relative;
+}
+
+.poster-container{
+    position: relative;
+    overflow: hidden;
+}
+
+.poster-container:hover .overview{
+    transform: translateY(0);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+span{
+    position: absolute;
+    background-color: #ff6100;
+    padding: 5px;
+    border-radius: 0 0 10px 0;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+h4{
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+button{
+    width: 180px;
+    margin: 10px 0 10px 0;
+    background-color: transparent;
+    border: 1px solid #ff6100;
+}
+
+.overview{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: #752d00b0;
+    padding: 10px;
+    z-index: 999;
+    transform: translateY(100%);
+    transition: 0.5s all;
+}
+
+.overview p {
+    font-size: 14px;
+}
