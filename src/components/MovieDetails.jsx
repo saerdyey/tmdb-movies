@@ -20,7 +20,7 @@ const MovieDetails = ({ match }) => {
 
   useEffect(() => {
     getMovieDetails();
-  }, []);
+  }, []);  // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="movie-details">
